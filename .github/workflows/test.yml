@@ -182,3 +182,4 @@ jobs:
           pip install pyTelegramBotAPI
           path="$GITHUB_WORKSPACE/apk/"
           python3 $GITHUB_WORKSPACE/.github/scripts/tg_bot.py "$BOT_TOKEN" "$CHANNEL_ID" "$path"
+          
